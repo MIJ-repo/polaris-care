@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,500,700,800&display=swap');
+html, body {
+    background-color: rgb(243, 243, 243);
+    font-family: 'M PLUS Rounded 1c', sans-serif !important;
+    color: rgb(80, 80, 80);
+}
+
+.bg-white {
+    background-color: white;
+}
+.bg-light-yellow {
+    background-color: lightgoldenrodyellow;
+}
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-32 {
+    font-size: 32px;
+}
+.fs-40 {
+    font-size: 40px;
+}
+.fs-48 {
+    font-size: 48px;
+}
+.fs-60 {
+    font-size: 60px;
+}
+.fs-90 {
+    font-size: 90px;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.text-orange {
+    color: orange;
+}
+.bg-orange {
+    background-color: orange;
+}
+.bg-gradient-orange {
+    background: linear-gradient(90deg, rgb(253, 219, 82) 0%, rgba(255,137,2,1) 100%);
+}
+.bg-gradient-orange-reserve {
+    background: linear-gradient(90deg, rgba(255,137,2,1) 0%, rgba(255,218,2,1) 100%);
+}
+.border-circle {
+    border-radius: 80px;
+}
+.table tr td {
+    padding-left: 0;
+    padding-right: 0;
+}
+.number-circle {
+    padding-top: .35rem;
+    padding-bottom: .35rem;
+}
+.border-8 {
+    border-radius: 8px;
+}
+.border-12 {
+    border-radius: 12px;
+}
+
+.custom-hr {
+    border-top: 3px solid orange;
+    width: 30rem;
+}
+#banner-left {
+    position: relative;
+}
+.new-tag {
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 600;
+}
+#new-tag-first {
+    position: absolute;
+    right: 70px;
+    top: -10px;
+}
+@media (max-width: 576px){
+    body {
+        font-size: 13px;
+    }
+    #logo-main {
+        width: 180px;
+    }
+    #logo-main-text {
+        font-size: 56px;
+    }
+    .logo-sub {
+        width: 100px;
+    }
+    .fs-20 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .fs-24 {
+        font-size: 18px;
+    }
+    .fs-32 {
+        font-size: 20px;
+    }
+    .fs-40 {
+        font-size: 24px;
+    }
+    .fs-48 {
+        font-size: 30px;
+    }
+    .fs-60 {
+        font-size: 36px;
+    }
+    .number-circle {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    .new-tag {
+        width: 3.5rem;
+        height: 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #new-tag-first {
+        position: absolute;
+        right: 30px;
+        top: -10px;
+    }
+    .custom-hr {
+        width: 17rem;
+    }
+}
